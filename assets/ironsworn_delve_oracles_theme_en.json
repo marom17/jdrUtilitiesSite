@@ -1,0 +1,368 @@
+[
+{
+"name":"Type Domain",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":6, "value":"Barrow"},
+	{"min": 7, "max":18, "value":"Cavern"},
+	{"min": 19, "max":28, "value":"Frozen Cavern"},
+	{"min": 29, "max":32, "value":"Icereach"},
+	{"min": 33, "max":38, "value":"Mine"},
+	{"min": 39, "max":48, "value":"Pass"},
+	{"min": 49, "max":58, "value":"Ruin"},
+	{"min": 59, "max":68, "value":"Sea Cave"},
+	{"min": 69, "max":78, "value":"Shadowfen"},
+	{"min": 79, "max":83, "value":"Stronghold"},
+	{"min": 84, "max":95, "value":"Tanglewood"},
+	{"min": 96, "max":100, "value":"Underkeep"}
+]},
+{
+"name":"Barrow Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Burial chambers"},
+	{"min": 44, "max":56, "value":"Maze of narrow passages"},
+	{"min": 57, "max":64, "value":"Shrine"},
+	{"min": 65, "max":68, "value":"Stately vault"},
+	{"min": 69, "max":72, "value":"Offerings to the dead"},
+	{"min": 73, "max":76, "value":"Statuary or tapestries"},
+	{"min": 77, "max":80, "value":"Remains of a grave robber"},
+	{"min": 81, "max":84, "value":"Mass grave"},
+	{"min": 85, "max":88, "value":"Exhumed corpses"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Barrow Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen guards this area"},
+	{"min": 34, "max":36, "value":"Trap"},
+	{"min": 37, "max":39, "value":"Death makes its presence known"},
+	{"min": 40, "max":42, "value":"Crumbling architecture"},
+	{"min": 43, "max":45, "value":"Grave goods with hidden dangers"}
+]},
+{
+"name":"Cavern Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Twisting passages"},
+	{"min": 44, "max":56, "value":"Cramped caves"},
+	{"min": 57, "max":64, "value":"Vast chamber"},
+	{"min": 65, "max":68, "value":"Subterranean waterway"},
+	{"min": 69, "max":72, "value":"Cave pool"},
+	{"min": 73, "max":76, "value":"Natural bridge"},
+	{"min": 77, "max":80, "value":"Towering stone formations"},
+	{"min": 81, "max":84, "value":"Natural illumination"},
+	{"min": 85, "max":88, "value":"Dark pit"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Cavern Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen lairs here"},
+	{"min": 34, "max":36, "value":"Cave-in"},
+	{"min": 37, "max":39, "value":"Flooding"},
+	{"min": 40, "max":42, "value":"Perilous climb or descent"},
+	{"min": 43, "max":45, "value":"Fissure or sinkhole"}
+]},
+{
+"name":"Frozen Cavern Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Maze of icy tunnels"},
+	{"min": 44, "max":56, "value":"Glistening cave"},
+	{"min": 57, "max":64, "value":"Vast chamber"},
+	{"min": 65, "max":68, "value":"Frigid waterway"},
+	{"min": 69, "max":72, "value":"Icy pools"},
+	{"min": 73, "max":76, "value":"Magnificent ice formations"},
+	{"min": 77, "max":80, "value":"Frozen waterfall"},
+	{"min": 81, "max":84, "value":"Deep crevasses"},
+	{"min": 85, "max":88, "value":"Discovery locked in the ice"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Frozen Cavern Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen lairs here"},
+	{"min": 34, "max":36, "value":"Fracturing ice"},
+	{"min": 37, "max":39, "value":"Crumbling chasm "},
+	{"min": 40, "max":42, "value":"Bitter chill"},
+	{"min": 43, "max":45, "value":"Disorienting reflections"}
+]},
+{
+"name":"Icereach Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Plains of ice and snow"},
+	{"min": 44, "max":56, "value":"Seawater channel"},
+	{"min": 57, "max":64, "value":"Icy highlands"},
+	{"min": 65, "max":68, "value":"Crevasse"},
+	{"min": 69, "max":72, "value":"Ice floes"},
+	{"min": 73, "max":76, "value":"Ship trapped in ice"},
+	{"min": 77, "max":80, "value":"Animal herd or habitat"},
+	{"min": 81, "max":84, "value":"Frozen carcass"},
+	{"min": 85, "max":88, "value":"Camp or outpost"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Icereach Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen hunts"},
+	{"min": 34, "max":36, "value":"Fragile ice above watery depths"},
+	{"min": 37, "max":39, "value":"Perilous climb or descent"},
+	{"min": 40, "max":42, "value":"Avalanche or icefall"},
+	{"min": 43, "max":45, "value":"Foul weather"}
+]},
+{
+"name":"Mine Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Cramped tunnels"},
+	{"min": 44, "max":56, "value":"Mine works"},
+	{"min": 57, "max":64, "value":"Excavated chamber"},
+	{"min": 65, "max":68, "value":"Mineshaft"},
+	{"min": 69, "max":72, "value":"Collapsed tunnel"},
+	{"min": 73, "max":76, "value":"Cluttered storage"},
+	{"min": 77, "max":80, "value":"Housing or common areas"},
+	{"min": 81, "max":84, "value":"Flooded chamber"},
+	{"min": 85, "max":88, "value":"Unearthed secret"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Mine Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Cave-in"},
+	{"min": 34, "max":36, "value":"Flooding"},
+	{"min": 37, "max":39, "value":"Unstable platforms or architecture"},
+	{"min": 40, "max":42, "value":"Hazardous gas pocket"},
+	{"min": 43, "max":45, "value":"Weakened terrain"}
+]},
+{
+"name":"Pass Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Winding mountain path"},
+	{"min": 44, "max":56, "value":"Snowfield or glacial rocks"},
+	{"min": 57, "max":64, "value":"River gorge"},
+	{"min": 65, "max":68, "value":"Crashing waterfall"},
+	{"min": 69, "max":72, "value":"Highland lake"},
+	{"min": 73, "max":76, "value":"Forgotten cairn"},
+	{"min": 77, "max":80, "value":"Bridge"},
+	{"min": 81, "max":84, "value":"Overlook"},
+	{"min": 85, "max":88, "value":"Camp or outpost"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Pass Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen lairs here"},
+	{"min": 34, "max":36, "value":"Denizen hunts"},
+	{"min": 37, "max":39, "value":"Perilous climb or descent"},
+	{"min": 40, "max":42, "value":"Avalanche or rockslide"},
+	{"min": 43, "max":45, "value":"Foul weather"}
+]},
+{
+"name":"Ruin Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Crumbling corridors and chambers"},
+	{"min": 44, "max":56, "value":"Collapsed architecture"},
+	{"min": 57, "max":64, "value":"Rubble-choked hall"},
+	{"min": 65, "max":68, "value":"Courtyard"},
+	{"min": 69, "max":72, "value":"Archive or library"},
+	{"min": 73, "max":76, "value":"Broken statuary or fading murals"},
+	{"min": 77, "max":80, "value":"Preserved vault"},
+	{"min": 81, "max":84, "value":"Temple to forgotten gods"},
+	{"min": 85, "max":88, "value":"Mausoleum"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Ruin Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Ancient mechanism or trap"},
+	{"min": 34, "max":36, "value":"Collapsing wall or ceiling"},
+	{"min": 37, "max":39, "value":"Blocked or broken passage"},
+	{"min": 40, "max":42, "value":"Unstable floor above a new danger"},
+	{"min": 43, "max":45, "value":"Ancient secrets best left buried"}
+]},
+{
+"name":"Sea Cave Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Watery tunnels"},
+	{"min": 44, "max":56, "value":"Eroded chamber"},
+	{"min": 57, "max":64, "value":"Flooded chamber"},
+	{"min": 65, "max":68, "value":"Vast chamber"},
+	{"min": 69, "max":72, "value":"Dry passages"},
+	{"min": 73, "max":76, "value":"Freshwater inlet"},
+	{"min": 77, "max":80, "value":"Rocky island"},
+	{"min": 81, "max":84, "value":"Waterborne debris"},
+	{"min": 85, "max":88, "value":"Shipwreck or boat"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Sea Cave Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen strikes without warning"},
+	{"min": 34, "max":36, "value":"Denizen lurks below"},
+	{"min": 37, "max":39, "value":"Flooding"},
+	{"min": 40, "max":42, "value":"Rushing current"},
+	{"min": 43, "max":45, "value":"Claustrophobic squeeze"}
+]},
+{
+"name":"Shadowfen Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Narrow path through a fetid bog"},
+	{"min": 44, "max":56, "value":"Stagnant waterway"},
+	{"min": 57, "max":64, "value":"Flooded thicket"},
+	{"min": 65, "max":68, "value":"Island of dry land"},
+	{"min": 69, "max":72, "value":"Submerged discovery"},
+	{"min": 73, "max":76, "value":"Preserved corpses"},
+	{"min": 77, "max":80, "value":"Overgrown structure"},
+	{"min": 81, "max":84, "value":"Tall reeds"},
+	{"min": 85, "max":88, "value":"Camp or outpost"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Shadowfen Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen hunts"},
+	{"min": 34, "max":36, "value":"Deep water blocks the path"},
+	{"min": 37, "max":39, "value":"Toxic environment"},
+	{"min": 40, "max":42, "value":"Concealing or disorienting mist"},
+	{"min": 43, "max":45, "value":"Hidden quagmire"}
+]},
+{
+"name":"Stronghold Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Connecting passageways"},
+	{"min": 44, "max":56, "value":"Barracks or common quarters"},
+	{"min": 57, "max":64, "value":"Large hall"},
+	{"min": 65, "max":68, "value":"Workshop or library"},
+	{"min": 69, "max":72, "value":"Command center or leadership"},
+	{"min": 73, "max":76, "value":"Ladder or stairwell"},
+	{"min": 77, "max":80, "value":"Storage"},
+	{"min": 81, "max":84, "value":"Kitchen or larder"},
+	{"min": 85, "max":88, "value":"Courtyard"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Stronghold Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Blocked or guarded path"},
+	{"min": 34, "max":36, "value":"Caught in the open"},
+	{"min": 37, "max":39, "value":"Chokepoint"},
+	{"min": 40, "max":42, "value":"Trap"},
+	{"min": 43, "max":45, "value":"Alarm trigger"}
+]},
+{
+"name":"Tanglewood Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Dense thicket"},
+	{"min": 44, "max":56, "value":"Overgrown path"},
+	{"min": 57, "max":64, "value":"Waterway"},
+	{"min": 65, "max":68, "value":"Clearing"},
+	{"min": 69, "max":72, "value":"Elder tree"},
+	{"min": 73, "max":76, "value":"Brambles"},
+	{"min": 77, "max":80, "value":"Overgrown structure"},
+	{"min": 81, "max":84, "value":"Rocky outcrop"},
+	{"min": 85, "max":88, "value":"Camp or outpost"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Tanglewood Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Denizen hunts"},
+	{"min": 34, "max":36, "value":"Denizen lairs here"},
+	{"min": 37, "max":39, "value":"Trap or snare"},
+	{"min": 40, "max":42, "value":"Path leads you astray"},
+	{"min": 43, "max":45, "value":"Entangling plant life"}
+]},
+{
+"name":"Underkeep Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 21, "max":43, "value":"Carved passages"},
+	{"min": 44, "max":56, "value":"Hall or chamber"},
+	{"min": 57, "max":64, "value":"Stairs into the depths"},
+	{"min": 65, "max":68, "value":"Grand doorway or entrance"},
+	{"min": 69, "max":72, "value":"Tomb or catacombs"},
+	{"min": 73, "max":76, "value":"Rough-hewn cave"},
+	{"min": 77, "max":80, "value":"Foundry or workshop"},
+	{"min": 81, "max":84, "value":"Shrine or temple"},
+	{"min": 85, "max":88, "value":"Imposing architecture or artistry"},
+	{"min": 89, "max":98, "value":"Something unusual or unexpected"},
+	{"min": 99, "max":99, "value":"You transition into a new theme"},
+	{"min": 100, "max":100, "value":"You transition into a new domain"}
+]},
+{
+"name":"Underkeep Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 31, "max":33, "value":"Ancient mechanism or trap"},
+	{"min": 34, "max":36, "value":"Crumbling architecture"},
+	{"min": 37, "max":39, "value":"Blocked or broken passage"},
+	{"min": 40, "max":42, "value":"Artifact with a hidden danger"},
+	{"min": 43, "max":45, "value":"Denizen lurks in darkness"}
+]}
+]

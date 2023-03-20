@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oracles</title>
+    <link rel="stylesheet" href="lib/css/bootstrap/bootstrap.min.css" />
+    <script src="lib/js/jquery/jquery.js"></script>
+    <script src="lib/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="src/oracles.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/ironsworn.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="fluid-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center"><h2>Ironsworn</h2></div>
+        </div>
+
+        <div class="accordion" id="oracleAccordion">
+          <!-- Plot -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesPlot">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#plotCollapse"
+                aria-expanded="false"
+                aria-controls="plotCollapse"
+              >
+                Plot
+              </button>
+            </h2>
+            <div
+              id="plotCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesPlot"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-4">Actions</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="actionBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="actionTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Thèmes</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="themeBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="themeTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Action combat</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="actionCombatBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="actionCombatTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Contrecoup mystique</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="contreCoupMystiqueBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="contreCoupMystiqueTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Rebondissement</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="rebondissementBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="rebondissementTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Rangs défi</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="rangDefisBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="rangDefisTxt"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Personnages -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesPerso">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#persoCollapse"
+                aria-expanded="false"
+                aria-controls="persoCollapse"
+              >
+                Personnages
+              </button>
+            </h2>
+            <div
+              id="persoCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesPerso"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-4">Type</div>
+                  <div class="col-6">
+                    <select class="form-select" id="selectTypePerso">
+                      <option value="1" selected>Ironlander</option>
+                      <option value="2">Elfe</option>
+                      <option value="3">Géant</option>
+                      <option value="4">Varous</option>
+                      <option value="5">Troll</option>
+                    </select>
+                  </div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="typePersoBtn">
+                      Roll
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Nom</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="nomPersoBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="nomPersoTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Description</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="descriptionPersoBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="descriptionPersoTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Disposition</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="dispositionPersoBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="dispositionPersoTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Rôle</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="rolePersoBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="rolePersoTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Objectif</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="objectifPersoBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="objectifPersoTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Activité</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="activityPersoBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="activityPersoTxt"></div>
+                </div>
+                <div class="row">
+                  <button class="btn btn-primary" id="firstLookPersoBtn">
+                    Première vision
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Lieux -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesLieux">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#lieuxCollapse"
+                aria-expanded="false"
+                aria-controls="lieuxCollapse"
+              >
+                Lieux
+              </button>
+            </h2>
+            <div
+              id="lieuxCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesLieux"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="switchLocationOnWater"
+                      value="false"
+                    />
+                    <label class="form-check-label" for="switchLocationOnWater"
+                      >Sur eau</label
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Régions</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="regionBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="regionTxt"></div>
+                </div>
+                <div class="row" id="locationOnEarth">
+                  <div class="col-4">Lieux</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="lieuxBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="lieuxTxt"></div>
+                </div>
+                <div class="row" id="locationOnWater">
+                  <div class="col-4">Eaux côtières</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="eauxCotieresBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="eauxCotieresTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Nom</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="villageNomBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="villageNomTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Description</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="descriptionLieuxBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="descriptionLieuxTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Trouble village</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="troubleVillageBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="troubleVillageTxt"></div>
+                </div>
+                <div class="row">
+                  <button class="btn btn-primary" id="firstLookLocation">
+                    Première vision
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Site -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesSite">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#siteCollapse"
+                aria-expanded="false"
+                aria-controls="siteCollapse"
+              >
+                Site
+              </button>
+            </h2>
+            <div
+              id="siteCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesSite"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-4">Name</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="actionBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="siteNameTxt"></div>
+                </div>
+                <div class="row">
+                  <button class="btn btn-primary" id="firstLookSiteBtn">
+                    Première vision
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Features -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesFeatures">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#featuresCollapse"
+                aria-expanded="false"
+                aria-controls="featuresCollapse"
+              >
+                Features
+              </button>
+            </h2>
+            <div
+              id="featuresCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesFeatures"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-4">Aspect</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="aspectBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="aspectTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Focus</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="focusBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="focustTxt"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Monstrosity -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesMonstrosity">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#monstrosityCollapse"
+                aria-expanded="false"
+                aria-controls="monstrosityCollapse"
+              >
+                Monstrosity
+              </button>
+            </h2>
+            <div
+              id="monstrosityCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesMonstrosity"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-4">Size</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="sizeBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="sizeTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Primary Form</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="primaryFormBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="primaryFormTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Characteristics</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="characteristicsBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="characteristicsTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Abilities</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="abilitiesBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="abilitiesTxt"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Trap -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesTrap">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#trapCollapse"
+                aria-expanded="false"
+                aria-controls="trapCollapse"
+              >
+                Trap
+              </button>
+            </h2>
+            <div
+              id="trapCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesTrap"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-4">Event</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="eventBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="eventTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Component</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="componentBtn">
+                      Roll
+                    </button>
+                  </div>
+                  <div class="col-6" id="componentTxt"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Combat event -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="oraclesCombatEvent">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#combatEventCollapse"
+                aria-expanded="false"
+                aria-controls="combatEventCollapse"
+              >
+                Combat Event
+              </button>
+            </h2>
+            <div
+              id="combatEventCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="oraclesCombatEvent"
+              data-bs-parent="#oracleAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-4">Method</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="methodBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="methodTxt"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Target</div>
+                  <div class="col-2">
+                    <button class="btn btn-primary" id="targetBtn">Roll</button>
+                  </div>
+                  <div class="col-6" id="targetTxt"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

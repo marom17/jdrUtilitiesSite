@@ -1,0 +1,248 @@
+[
+{
+"name":"Type Theme",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":11, "value":"Ancient"},
+	{"min": 12, "max":23, "value":"Corrupted"},
+	{"min": 24, "max":35, "value":"Fortified"},
+	{"min": 36, "max":48, "value":"Hallowed"},
+	{"min": 49, "max":61, "value":"Haunted"},
+	{"min": 62, "max":74, "value":"Infested"},
+	{"min": 75, "max":87, "value":"Ravaged"},
+	{"min": 88, "max":100, "value":"Wild"}
+]},
+{
+"name":"Ancient Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Evidence of lost knowledge"},
+	{"min": 5, "max":8, "value":"Inscrutable relics"},
+	{"min": 9, "max":12, "value":"Ancient artistry or craft"},
+	{"min": 13, "max":16, "value":"Preserved corpses or fossils"},
+	{"min": 17, "max":20, "value":"Visions of this place in another time"}
+]},
+{
+"name":"Ancient Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Ancient trap"},
+	{"min": 6, "max":10, "value":"Hazardous architecture or terrain"},
+	{"min": 11, "max":12, "value":"Blocked or broken path"},
+	{"min": 13, "max":14, "value":"Denizen protects an ancient secret"},
+	{"min": 15, "max":16, "value":"Denizen reveres an ancient power"},
+	{"min": 17, "max":18, "value":"Living relics of a lost age"},
+	{"min": 19, "max":20, "value":"Ancient evil resurgent"},
+	{"min": 21, "max":22, "value":"Dire warnings of a long-buried danger"},
+	{"min": 23, "max":24, "value":"Ancient disease or contamination"},
+	{"min": 25, "max":26, "value":"Artifact of terrible meaning or power"},
+	{"min": 27, "max":28, "value":"Disturbing evidence of ancient wrongs"},
+	{"min": 29, "max":30, "value":"Others seek power or knowledge"}
+]},
+{
+"name":"Corrupted Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Mystic focus or conduit"},
+	{"min": 5, "max":8, "value":"Strange environmental disturbances"},
+	{"min": 9, "max":12, "value":"Mystic runes or markings"},
+	{"min": 13, "max":16, "value":"Blight or decay"},
+	{"min": 17, "max":20, "value":"Evidence of a foul ritual"}
+]},
+{
+"name":"Corrupted Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Denizen spawned from dark magic"},
+	{"min": 6, "max":10, "value":"Denizen controls dark magic"},
+	{"min": 11, "max":12, "value":"Denizen corrupted by dark magic"},
+	{"min": 13, "max":14, "value":"Corruption marks you"},
+	{"min": 15, "max":16, "value":"Innocents held in thrall"},
+	{"min": 17, "max":18, "value":"Revelations of a terrible truth"},
+	{"min": 19, "max":20, "value":"Mystic trap or trigger"},
+	{"min": 21, "max":22, "value":"Mystic barrier or ward"},
+	{"min": 23, "max":24, "value":"Illusions lead you astray"},
+	{"min": 25, "max":26, "value":"Dark ritual in progress"},
+	{"min": 27, "max":28, "value":"Lingering effects of a dark ritual"},
+	{"min": 29, "max":30, "value":"Dread harbingers of a greater magic"}
+]},
+{
+"name":"Fortified Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Camp or quarters"},
+	{"min": 5, "max":8, "value":"Guarded location"},
+	{"min": 9, "max":12, "value":"Storage or repository"},
+	{"min": 13, "max":16, "value":"Work or training area"},
+	{"min": 17, "max":20, "value":"Command center or leadership"}
+]},
+{
+"name":"Fortified Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Denizen patrols the area"},
+	{"min": 6, "max":10, "value":"Denizen on guard"},
+	{"min": 11, "max":12, "value":"Denizen ready to sound the alarm"},
+	{"min": 13, "max":14, "value":"Denizen sets an ambush"},
+	{"min": 15, "max":16, "value":"Denizen lures you into a trap"},
+	{"min": 17, "max":18, "value":"Denizens converge on this area"},
+	{"min": 19, "max":20, "value":"Pets or underlings"},
+	{"min": 21, "max":22, "value":"Unexpected alliance revealed"},
+	{"min": 23, "max":24, "value":"Nefarious plans revealed"},
+	{"min": 25, "max":26, "value":"Unexpected leader revealed"},
+	{"min": 27, "max":28, "value":"Trap"},
+	{"min": 29, "max":30, "value":"Alarm trigger"}
+]},
+{
+"name":"Hallowed Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Temple or altar"},
+	{"min": 5, "max":8, "value":"Offerings or atonements"},
+	{"min": 9, "max":12, "value":"Religious relic or idol"},
+	{"min": 13, "max":16, "value":"Consecrated ground"},
+	{"min": 17, "max":20, "value":"Dwellings or gathering place"}
+]},
+{
+"name":"Hallowed Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Denizen defends their sanctum"},
+	{"min": 6, "max":10, "value":"Denizen enacts the will of their god"},
+	{"min": 11, "max":12, "value":"Denizen seeks martyrdom"},
+	{"min": 13, "max":14, "value":"Secret of the faith is revealed"},
+	{"min": 15, "max":16, "value":"Greater purpose is revealed"},
+	{"min": 17, "max":18, "value":"Unexpected disciples are revealed"},
+	{"min": 19, "max":20, "value":"Divine manifestations "},
+	{"min": 21, "max":22, "value":"Aspect of the faith beguiles you"},
+	{"min": 23, "max":24, "value":"Unexpected leader is revealed"},
+	{"min": 25, "max":26, "value":"Embodiment of a god or myth"},
+	{"min": 27, "max":28, "value":"Protective ward or barrier"},
+	{"min": 29, "max":30, "value":"Prophecies reveal a dark fate"}
+]},
+{
+"name":"Haunted Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Tomb or burial site"},
+	{"min": 5, "max":8, "value":"Blood was spilled here"},
+	{"min": 9, "max":12, "value":"Unnatural mists or darkness "},
+	{"min": 13, "max":16, "value":"Messages from beyond the grave"},
+	{"min": 17, "max":20, "value":"Apparitions of a person or event"}
+]},
+{
+"name":"Haunted Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Denizen haunts this area"},
+	{"min": 6, "max":10, "value":"Unsettling sounds or foreboding signs"},
+	{"min": 11, "max":12, "value":"Denizen attacks without warning"},
+	{"min": 13, "max":14, "value":"Denizen makes a costly demand"},
+	{"min": 15, "max":16, "value":"Denizen seizes your body or mind"},
+	{"min": 17, "max":18, "value":"Denizen taunts or lures you"},
+	{"min": 19, "max":20, "value":"A disturbing truth is revealed"},
+	{"min": 21, "max":22, "value":"Frightening visions"},
+	{"min": 23, "max":24, "value":"The environment is used against you"},
+	{"min": 25, "max":26, "value":"Trickery leads you astray"},
+	{"min": 27, "max":28, "value":"True nature of this place is revealed "},
+	{"min": 29, "max":30, "value":"Sudden, shocking manifestation"}
+]},
+{
+"name":"Infested Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Inhabited nest"},
+	{"min": 5, "max":8, "value":"Abandoned nest"},
+	{"min": 9, "max":12, "value":"Ravaged terrain or architecture"},
+	{"min": 13, "max":16, "value":"Remains or carrion"},
+	{"min": 17, "max":20, "value":"Hoarded food"}
+]},
+{
+"name":"Infested Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Denizens swarm and attack"},
+	{"min": 6, "max":10, "value":"Toxic or sickening environment"},
+	{"min": 11, "max":12, "value":"Denizen stalks you"},
+	{"min": 13, "max":14, "value":"Denizen takes or destroys something"},
+	{"min": 15, "max":16, "value":"Denizen reveals surprising cleverness"},
+	{"min": 17, "max":18, "value":"Denizen guided by a greater threat"},
+	{"min": 19, "max":20, "value":"Denizen blocks the path"},
+	{"min": 21, "max":22, "value":"Denizen funnels you down a new path"},
+	{"min": 23, "max":24, "value":"Denizen undermines the path"},
+	{"min": 25, "max":26, "value":"Denizen lays in wait"},
+	{"min": 27, "max":28, "value":"Trap or snare"},
+	{"min": 29, "max":30, "value":"Victim’s horrible fate is revealed"}
+]},
+{
+"name":"Ravaged Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Path of destruction"},
+	{"min": 5, "max":8, "value":"Abandoned or ruined dwelling"},
+	{"min": 9, "max":12, "value":"Untouched or preserved area"},
+	{"min": 13, "max":16, "value":"Traces of what was lost"},
+	{"min": 17, "max":20, "value":"Ill-fated victims"}
+]},
+{
+"name":"Ravaged Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Precarious architecture or terrain"},
+	{"min": 6, "max":10, "value":"Imminent collapse or destruction"},
+	{"min": 11, "max":12, "value":"Path undermined"},
+	{"min": 13, "max":14, "value":"Blocked or broken path"},
+	{"min": 15, "max":16, "value":"Vestiges of a destructive force"},
+	{"min": 17, "max":18, "value":"Unexpected environmental threat"},
+	{"min": 19, "max":20, "value":"Echoes of a troubling past"},
+	{"min": 21, "max":22, "value":"Signs of a horrible fate"},
+	{"min": 23, "max":24, "value":"Denizen seeks retribution"},
+	{"min": 25, "max":26, "value":"Denizen leverages the environment"},
+	{"min": 27, "max":28, "value":"Denizen restores what was lost"},
+	{"min": 29, "max":30, "value":"Ravages return anew"}
+]},
+{
+"name":"Wild Features",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":4, "value":"Denizen’s lair"},
+	{"min": 5, "max":8, "value":"Territorial markings"},
+	{"min": 9, "max":12, "value":"Impressive flora or fauna"},
+	{"min": 13, "max":16, "value":"Hunting ground or watering hole"},
+	{"min": 17, "max":20, "value":"Remains or carrion"}
+]},
+{
+"name":"Wild Dangers",
+"description":"",
+"usage":{ "maxRoll":1,"allowDuplicate": false},
+"oracle":[
+	{"min": 1, "max":5, "value":"Denizen hunts"},
+	{"min": 6, "max":10, "value":"Denizen strikes without warning"},
+	{"min": 11, "max":12, "value":"Denizen leverages the environment "},
+	{"min": 13, "max":14, "value":"Denizen wields unexpected abilities"},
+	{"min": 15, "max":16, "value":"Denizen guided by a greater threat"},
+	{"min": 17, "max":18, "value":"Denizen protects something"},
+	{"min": 19, "max":20, "value":"Hazardous terrain"},
+	{"min": 21, "max":22, "value":"Weather or environmental threat"},
+	{"min": 23, "max":24, "value":"Benign aspect becomes a threat"},
+	{"min": 25, "max":26, "value":"Overzealous hunter"},
+	{"min": 27, "max":28, "value":"Disturbing evidence of a victim’s fate"},
+	{"min": 29, "max":30, "value":"Ill-fated victim in danger"}
+]}
+]

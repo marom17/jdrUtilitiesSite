@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oracles</title>
+    <link rel="stylesheet" href="lib/css/bootstrap/bootstrap.min.css" />
+    <script src="lib/js/jquery/jquery.js"></script>
+    <script src="lib/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="src/oracles.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/mythic.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="fluid-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center"><h2>Mythic</h2></div>
+        </div>
+        <idv class="row">
+          <div class="col-2">Fate Check</div>
+          <div class="col-3">
+            <select id="odds">
+              <option value="5">Certain</option>
+              <option value="4">Nearly Certain</option>
+              <option value="2">Very Likely</option>
+              <option value="1">Likely</option>
+              <option value="0" selected>50/50</option>
+              <option value="-1">Unlikely</option>
+              <option value="-2">Very Unlikely</option>
+              <option value="-4">Near Impossible</option>
+              <option value="-5">Impossible</option>
+            </select>
+          </div>
+          <div class="col-3">
+            <select id="chaosFactor">
+              <option value="5">9</option>
+              <option value="4">8</option>
+              <option value="2">7</option>
+              <option value="1">6</option>
+              <option value="0" selected>5</option>
+              <option value="-1">4</option>
+              <option value="-1">3</option>
+              <option value="-4">2</option>
+              <option value="-5">1</option>
+            </select>
+          </div>
+          <div class="col-2">
+            <button class="btn btn-primary" id="fateCheckBtn">Roll</button>
+          </div>
+          <div class="col-2" id="fateCheckTxt"></div>
+        </idv>
+        <div id="oracle"></div>
+      </div>
+    </div>
+  </body>
+</html>
